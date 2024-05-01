@@ -1,0 +1,23 @@
+.btn-show-chat{
+    display: none;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+.attach-showChatBtn{
+    position: absolute;
+    left: 261px;
+    z-index: 2;
+}
+
+.btn-show-chat:hover{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.065);
+}
+
+@media (max-width: 770px) {
+    .btn-show-chat{
+        display: block;
+    }
+}

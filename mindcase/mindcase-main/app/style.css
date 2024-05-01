@@ -1,0 +1,9 @@
+@media (max-width: 770px) {
+    #id-chat-box {
+        display: none;
+    }
+    
+    .btn-version{
+        display: none;
+    }
+}

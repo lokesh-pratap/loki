@@ -1,0 +1,133 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mindcase",
+    "dateExported": "2023-11-28T13:59:44.686Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e7cb177c-a277-4513-a207-6c914773acc3",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../auth/signup",
+            "url": "http://localhost/api/auth/signup",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-26T15:18:39.961Z",
+            "modified": "2023-11-26T15:38:13.252Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"dangi8273439998@gmail.com\",\n  \"password\": \"mypassword\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1b32ca68-d48a-42b8-a222-fc93b7bf3de8",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../signup/verify",
+            "url": "http://localhost/api/auth/signup/verify",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-26T18:09:40.245Z",
+            "modified": "2023-11-26T19:21:14.709Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "otp_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoxLCJjb2RlIjozMTgwOTEsImVtYWlsIjoiZGFuZ2k4MjczNDM5OTk4QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJpYXQiOjE3MDEwMjQxMzgsImV4cCI6MTcwMTAyNzczOH0.bHXnBM78Aj2vnd4GI2clv2S1UGgIHvSInNwqyurnYjo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"code\": 318091\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "051b34fd-6274-46bc-9778-7a057bb61c9a",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../signup/saveinfo",
+            "url": "http://localhost/api/auth/signup/saveinfo",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-27T04:12:22.780Z",
+            "modified": "2023-11-27T05:08:48.110Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "otp_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoxLCJjb2RlIjo3OTYyMzIsImVtYWlsIjoiZGFuZ2k4MjczNDM5OTk4QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiMTIzNDU2NzgiLCJpYXQiOjE3MDEwNjEwOTksImV4cCI6MTcwMTA2NDY5OX0.3OrSz1iO0MExY8ag6qK4mtdyDM8fTGv-xpW9uX034s0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Kunal\",\n  \"lastname\": \"Dangi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "09a35652-94b2-4587-a5c2-15e231b10be2",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../auth/login",
+            "url": "http://localhost/api/auth/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-11-27T05:55:41.477Z",
+            "modified": "2023-11-27T08:05:27.433Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"arya250611@gmail.com\",\n  \"password\": \"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3283cf06-3ec2-43d5-af88-3bcd975d93b5",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../chat/create",
+            "url": "http://localhost/api/chat/create",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-11-28T08:57:42.129Z",
+            "modified": "2023-11-28T10:19:39.308Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIyLCJ1c2VybmFtZSI6Ikt1bmFsIERhbmdpIiwiZW1haWwiOiJkYW5naTgyNzM0Mzk5OThAZ21haWwuY29tIiwiaWF0IjoxNzAxMDgwODcwLCJleHAiOjE3MDE2ODU2NzB9.9z0Jn1vI4HMlvPzc-3jV100UGPGfFJHcN8YWXOagZoY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"message\": \"Tell me something about yourself!\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0b0bb081-fc71-47c2-ab92-fe804390123a",
+            "colId": "bb54a5aa-3a3b-45d3-a02d-4d2b90513f37",
+            "containerId": "",
+            "name": "../chat/get",
+            "url": "http://localhost/api/chat/get",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-11-28T12:16:34.962Z",
+            "modified": "2023-11-28T12:17:10.873Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
